@@ -76,13 +76,13 @@ onMounted(() => {
           <h3>Síguenos</h3>
           <!-- Botones de redes sociales con imágenes locales -->
           <div class="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
               <img src="/images/facebook.svg" alt="Facebook" class="social-icon" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
               <img src="/images/instagram.svg" alt="Instagram" class="social-icon" />
             </a>
-            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">
               <img src="/images/tiktok.svg" alt="TikTok" class="social-icon" />
             </a>
           </div>
