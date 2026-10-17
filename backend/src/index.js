@@ -8,7 +8,15 @@ const citasRouter = require('./routes/citas');
 
 const app = express();
 
-app.use(cors({ origin: process.env.CORS_ORIGIN }));
+app.use(cors({
+    origin: [
+      'https://web-barberia-bravo-s.vercel.app', 
+      'http://localhost:5173', 
+      'http://localhost:3000'
+    ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true
+  }));
 app.use(express.json());
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
